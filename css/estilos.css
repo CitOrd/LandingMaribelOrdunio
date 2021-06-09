@@ -1,0 +1,155 @@
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+nav{
+    background-color: rgb(171, 143, 188);
+    
+   position: absolute;
+   top: 122px;
+   left: 0;
+   width: 150px;
+   height: calc(100% - 130px);
+   border: 1px solid Silver; 
+}
+
+main p{
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    background: white;
+
+}
+header{
+    background: url(../imagenes/lunarojita.jpg); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    border: 1px solid Silver;
+    text-align: center;
+    
+     
+}
+
+main{
+    position: absolute;
+    height: calc(100% - 154px);
+    width: calc(100% - 154px);
+    top: 122px;
+    left: 152px;
+    background: cornsilk url(../imagenes/puntitosRevancha.jpg);
+    
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    background: seashell;
+    padding: 0 10px;
+    width: 130px;    
+    border-bottom: 1px solid Silver;
+}
+
+nav ul {
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    width:150px;
+}
+
+nav li {
+    font-size: x-large;
+    position: relative;
+    width:150px;
+    text-align: center;
+    
+}
+
+nav a:link {
+    color: Blue; 
+}
+
+nav a:visited {
+    color: fuchsia; 
+}
+
+nav a:hover {
+    color: Black;
+    background-color: lightgray; 
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    font-size: 230;
+}
+
+
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px; 
+    margin-top: 700px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+ }
+
+
+ p.derecha{
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    background: white;
+ }
+
+ p.izquierda{
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    background: white;
+ }
+
+ img.derecha{
+    width:300px; 
+    height:150px; 
+    float: right;
+    border: 2px solid black; 
+    margin: 0px 10px; 
+ }
+
+ img.izquierda{
+    width:300px; 
+    height:150px; 
+    float: left;
+    border: 2px solid black; 
+    margin: 0px 10px;   
+ }
+
+ footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px; 
+    margin-top: 700px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+ }
